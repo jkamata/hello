@@ -16,3 +16,9 @@ void prTest(HANDLE h) {
   int a = h->a;
   printf("%d\n",a);
 }
+
+void delText(HANDLE h) {
+  free(h);
+}
+
+
